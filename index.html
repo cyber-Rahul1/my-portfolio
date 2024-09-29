@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/74f9960915.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h4 class="head"><span>R</span>ahul Satvik</h4>
+                <ul class="list" id="menu">
+                    <li class="items"><a href="#header">Home</a></li>
+                    <li class="items"><a href="#about">About</a></li>
+                    <li class="items"><a href="#services">Services</a></li>
+                    <li class="items"><a href="#projects">Projects</a></li>
+                    <li class="items"><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="details">
+                <div class="dynamic-text">
+                    <span class="text"></span>
+                </div>
+                <h1 class="text2">Hello, I'm <span>Rahul</span>, <br>a <span id="dev">web developer</span> and a pencil artist. <br> I love creating visually stunning websites and illustrations.</h1>
+            </div>
+        </div>
+    </div>
+
+    
+    <!----------------------------ABOUT----------------------------->
+
+
+
+
+
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="column-1">
+                    <img src="https://img00.deviantart.net/6068/i/2015/204/9/3/goku_08_by_pedronex-d92gd8w.png" alt="image here">
+                </div>
+                <div class="column-2">
+                    <h1 class="about">About me</h1>
+                    <p class="aboutme">I am a creative web developer and pencil artist, combining my technical and artistic skills in unique ways. I focus on details, ensuring my work is both visually appealing and highly functional, whether it's a website or a drawing. My versatility allows me to express my creativity across digital and traditional mediums, making me a dynamic professional.</p>
+                     <div class="title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li class="list1"><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Artworks</span><br>Potraits and pencil sketches</li>
+                            
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li class="list1"><span>2024</span><br>Internship at My Company</li>
+                            <li><span>2023-2024</span><br>Freelancing on Web Development</li>
+                            
+                            
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li class="list1"><span>2024</span><br>Graduated B.tech from Vignan Institute of Information Technology</li>
+                            <li><span>2020</span><br>Intermediate from Sri Chaitanya Junior College</li>
+                            
+                            
+                        </ul>
+                     </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------------------SERVICES--------------------------------------->
+
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="about">My Services</h1>
+            <div class="serviceslist">
+                <div class="service">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I provide freelance web development services, building responsive and user-friendly websites tailored to your needs. My focus is on delivering high-performance, visually appealing solutions that enhance your online presence.</p>
+                    <a href="#" class="link"><button>Learn More</button></a>
+                </div>
+                <div class="service">
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I offer freelance UI/UX design services, crafting intuitive and aesthetically pleasing interfaces. My designs prioritize functionality and user experience to create engaging, seamless interactions.</p>
+                    <a href="#" class="link"><button>Learn More</button></a>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Art Design</h2>
+                    <p>As a freelance artist, I create detailed pencil drawings that capture emotion and realism. My work combines artistic precision with creativity, bringing unique visions to life.</p>
+                    <a href="#" class="link"><button>Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--------------------------------my projects------------------------------------->
+
+
+
+
+
+
+
+    <div class="projects" id="projects">
+        <div class="container">
+            <h1 class="about">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                <img class="img3" src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the people all around <br>the world.
+                            download it from playstore.
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="img3" src="work-2.png">
+                    <div class="layer">
+                        <h3>Music player App</h3>
+                        <p>The app connects you to the people all around <br>the world.
+                            download it from playstore.
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="img3" src="work-3.png">
+                    <div class="layer">
+                        <h3>E-Commerce App</h3>
+                        <p>The app connects you to the people all around <br>the world.
+                            download it from playstore.
+                        </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="botton">See more</a>
+        </div>
+        <div>
+            <h1 class="about2">My Artworks</h1>
+            <div class="wrapper">
+                <div class="item item1"><img src="ichigo.jpg" alt=""></div>
+                <div class="item item2"><img src="madara.jpg" alt=""></div>
+                <div class="item item3"><img src="kai.jpg" alt=""></div>
+                <div class="item item4"><img src="guy.jpg" alt=""></div>               
+                <div class="item item5"><img src="megumi.jpg" alt=""></div>
+                <div class="item item6"><img src="goku.jpg" alt=""></div>
+                <div class="item item7"><img src="oden.jpg" alt=""></div>
+                <div class="item item8"><img src="naruto.jpg" alt=""></div>
+                <div class="item item9"><img src="mitsuri.jpg" alt=""></div>
+                <div class="item item10"><img src="yuta.jpg" alt=""></div>
+                <div class="item item11"><img src="vegeta.jpg" alt=""></div>
+                <div class="item item12"><img src="sanemi.jpg" alt=""></div>
+                <!---<div class="item item9"><img src="yuta.jpg" alt=""></div>
+                <div class="item item10"><img src="tokito.jpg" alt=""></div>
+                
+                <div class="item item13"><img src="allmight.jpg" alt=""></div>
+                <div class="item item14"><img src="gohan.jpg" alt=""></div>
+                <div class="item item15"><img src="gokuui.jpg" alt=""></div>
+                <div class="item item16"><img src="oden.jpg" alt=""></div>
+                <div class="item item17"><img src="mitsuri.jpg" alt=""></div>
+                <div class="item item18"><img src="naruto.jpg" alt=""></div>
+                <div class="item item19"><img src="vegeta.jpg" alt=""></div>
+                <div class="item item20"><img src="shikamaru.jpg" alt=""></div>
+                <div class="item item21"><img src="guy.jpg" alt=""></div>
+                <div class="item item22"><img src="choji.jpg" alt=""></div>
+                <div class="item item23"><img src="tyson.jpg" alt=""></div>
+                <div class="item item24"><img src="zeke.jpg" alt=""></div>
+                <div class="item item25"><img src="castle.jpg" alt=""></div>----->
+            
+            </div>
+        </div>
+        <div>
+            <div class="wrapper">
+                <div class="wrapper2">
+                    <div class="item item1"><p>Rahul</p></div>
+                    <div class="item item2"><p>Rahul</p></div>
+                    <div class="item item3"><p>Rahul</p></div>
+                    <div class="item item4"><p>Rahul</p></div>               
+                    <div class="item item5"><p>Rahul</p></div>
+                    <div class="item item6"><p>Rahul</p></div>
+                    <div class="item item7"><p>Rahul</p></div>
+                    <div class="item item8"><p>Rahul</p></div>
+                    <div class="item item9"><p>Rahul</p></div>
+                    <div class="item item10"><p>Rahul</p></div>
+                    <div class="item item11"><p>Rahul</p></div>
+                    <div class="item item12"><p>Rahul</p></div>
+                   
+               </div>
+           </div>
+        
+    </div>
+
+
+<!-------------------------CONTACT----------------------------->
+
+
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="about">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> rahulsatvik@gmail.com</p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/share/Vmvu1MiEfUuNpbTo/?mibextid=qi2Omg"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/TuningArtz?t=PD-sqQ86NmsPrfQOBhpRMQ&s=03"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/tuning_artz?igsh=MWc0ZTNlaTJ3ampsYw=="><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="I am batman\rahul.pdf" download  class="botton btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="text" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="botton btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer> <p>copyright @Rahul all rights reserved</p></footer>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(x of tablinks){
+            x.classList.remove("active-link");
+
+        }
+        for(y of tabcontents){
+            y.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+
+
+
+
+    
+</script>
+
+
+
+
+
+   <!----- <script>
+        const a = document.querySelector(".details");
+        const b = "Hello, I'm Rahul, <br>a web developer and a pencil artist. <br> I love creating visually stunning websites and illustrations.";
+
+        function type(element, text, i=0){
+            element.textContent += text[i];
+
+            if (i === text.length - 1){
+                return;
+            }
+            setTimeout(() => type(element, text, i+1), 40);
+
+
+        }
+        type(a, b);
+
+    </script>--->
+    
+
+    <script>
+        const texts = ["Web Developer", "Artist", "UI/UX Designer"];
+        let currentIndex = 0;
+        const textElement = document.querySelector(".dynamic-text .text");
+
+        function typeText(text, i = 0) {
+            if (i < text.length) {
+                textElement.textContent += text[i];
+                setTimeout(() => typeText(text, i + 1), 100);
+            } else {
+                setTimeout(() => {
+                    eraseText(text);
+                }, 1000); 
+            }
+        }
+
+        function eraseText(text, i = text.length) {
+            if (i >= 0) {
+                textElement.textContent = text.substring(0, i);
+                setTimeout(() => eraseText(text, i - 1), 50);
+            } else {
+                currentIndex = (currentIndex + 1) % texts.length;
+                setTimeout(() => typeText(texts[currentIndex]), 500);
+            }
+        }
+
+        // Start the typing animation
+        typeText(texts[currentIndex]);
+
+
+
+    </script>
+
+
+
+
+
+<script>
+
+    var menu = document.getElementById("menu");
+
+    function openmenu(){
+        menu.style.right = "0";
+    }
+    function closemenu(){
+        menu.style.right = "-200px";
+    }
+
+
+
+
+</script>
+</body>
+</html>   
